@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-part">
+
+        <img src="college.png" alt="college-image" width="100%" height="715px">
+    </div>
+
+    <div class="table-part">
+
+    <h2>  Learn More Today</h2>
+
+    <p>Complete the form below for detailed team information and to be<br> contacted by phone and email</p>
+        <form>
+            <label for="Team">SELECT A TEAM</label><br>
+            <select name="Team" id="Team" placeholder="Select Team">
+                <option value=""disabled selected hidden>Select Team</option>
+                <option value="Engineering Team">Engineering</option>
+                <option value="Customer Success">Customer Success</option>
+                <option value="Tech Infra">Tech Infra</option>
+            </select> <br><br>
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <label for="Mail Id">Mail Id</label><br>
+            <input type="email" id="email" name="email" value="Mail Id"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+</body>
+</html>
